@@ -6,17 +6,24 @@ const reader = readline.createInterface({
 });
 
 reader.question("Password: ", function(input){
-	
-console.log(`${input.length}`)
+	input.toUpperCase()
+	input.toLowerCase()
+
+//input = Number()	
+console.log(`${input.length} characters used`)
+
     
 
 	if (input.length <= 10){
+		//input.toUpperCase();
 
-        console.log('success');
+        console.log(`Password created Successfully`);
  
   } else {
-      console.log('failure')
+      console.log('Password Failed: Please enter atleast 10 characters')
   }
+
+  
   
 	
 	reader.close() // This line closes the connection to the command line interface.-
