@@ -36,9 +36,12 @@ var gitHubDefinition = "github is a git repository where we can save our files."
 */
 
 //CODE HERE
-`init`
-`Description: it initialize the repository`
-`Code: git init reposiptory link  `
+let init = {
+    Description: "it initialize the repository",
+    Code: "git init reposiptory link "
+
+}
+
 //////////////////PROBLEM 4////////////////////
 /*
     Create an object called 'clone' with 'description' and 'code' properties 
@@ -46,9 +49,12 @@ var gitHubDefinition = "github is a git repository where we can save our files."
 */
 
 //CODE HERE
-`clone`
-`Description: to copy the repository from the remote repository to local machine cloning of that repository is done`
-`Code: git clone <remote URL>`
+let clone = {
+    Description: "to copy the repository from the remote repository to local machine cloning of that repository is done",
+    Code: "git clone <remote URL>"
+
+}
+
 //////////////////PROBLEM 5////////////////////
 /*
     Create an object called 'status' with 'description' and 'code' properties 
@@ -56,9 +62,12 @@ var gitHubDefinition = "github is a git repository where we can save our files."
 */
 
 //CODE HERE
-`status`
-`Description: it basically informs the status of the repository that whether the changes have been made or not or the repository is empty or not`
-`Code: git status`
+let status = {
+    Description: "it basically informs the status of the repository that whether the changes have been made or not or the repository is empty or not",
+    Code: "git status"
+
+}
+
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -67,9 +76,12 @@ var gitHubDefinition = "github is a git repository where we can save our files."
 */
 
 //CODE HERE
-`add`
-`Descriptpn : It stage the file to get added to the remote machine that is github from the local machine `
-`git add <file or directory name>`
+let add = {
+    descriptpn : "It stage the file to get added to the remote machine that is github from the local machine",
+    code : "git add <file or directory name>"
+}
+
+
 //////////////////PROBLEM 7////////////////////
 /*
     Create an object called 'commit' with 'description' and 'code' properties
@@ -77,9 +89,13 @@ var gitHubDefinition = "github is a git repository where we can save our files."
 */
 
 //CODE HERE
-"Commit"
-"Description: Commit records the files changed and that can be mentioned inside the double quot"
-"Code: git commit - am "text"
+
+let commit = {
+    description : "Commit records the files changed and that can be mentioned inside the double quote",
+    code:  "git commit - am /'text' "
+}
+
+
 
 
 
@@ -91,6 +107,8 @@ var gitHubDefinition = "github is a git repository where we can save our files."
 */
 
 //CODE HERE
-`push`
-`Description: It push the file from the local machine to the remote machine in the selescted repository it is suppose to go`
-`Code: git push`
+let push = {
+    Description: "It push the file from the local machine to the remote machine in the selescted repository it is suppose to go",
+    Code: "git push"
+
+}

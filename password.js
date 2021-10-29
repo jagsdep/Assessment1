@@ -13,7 +13,6 @@ reader.question("Password: ", function(input){
 console.log(`${input.length} characters used`)
 
     
-
 	if (input.length <= 10){
 		//input.toUpperCase();
 
@@ -24,7 +23,6 @@ console.log(`${input.length} characters used`)
   }
 
   
-  
-	
 	reader.close() // This line closes the connection to the command line interface.-
 });
+
