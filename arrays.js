@@ -48,15 +48,16 @@ var middleNums = numbers.slice(1, -1)
   Return the answers array inside of the function.
 */
 
-// CODE HERE
-//function bigOrSmall(arr)
+//CODE HERE
+function bigOrSmall(arr){
  
 
-//for (i = 0; i < arr.length; i++){
-  //if(arr.length>100){
-    //var answers =  arr.push(`big`)
+for (i = 0; i < arr.length; i++){
+  if(arr.length>100){
+    var answers =  arr.push(`big`)
 
-//console.log(answers)  }
+console.log(answers)  }
+  }
 
-  //console.log
-//}
+  console.log
+}
